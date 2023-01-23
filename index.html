@@ -11,7 +11,10 @@
       rel="stylesheet"
     />
     <title>Tea House</title>
-    <script src="https://kit.fontawesome.com/28d93e825b.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/28d93e825b.js"
+      crossorigin="anonymous"
+    ></script>
     <script src="https://cdn.tailwindcss.com"></script>
     <script>
       tailwind.config = {
@@ -31,41 +34,83 @@
   <body>
     <!-- Header Section -->
     <section class="container mx-auto px-16 lg:px-36 lg:flex pt-10 mb-28">
-        <!-- banner title -->
-        <div class="flex -items-center ">
-         <div>
-            <h1 class="text-5xl md:text-7xl font-semibold">It's good
-                <br> tea time at The <br>
-                Tea House
-            </h1>
-            <br>
-            <p class="w-3/4">
-                Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
-                Your Taste Buds.
-            </p>
-            <br>
-            <button class="bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 px-5 py-2 text-base  text-white rounded-lg mb-5 w-44 h-14">Explore More
-                <img src="./images/arrow.png" class="inline h-[24px]  p-1" alt="">
-            </button>
-         </div>
+      <!-- banner title -->
+      <div class="flex -items-center">
+        <div>
+          <h1 class="text-5xl md:text-7xl font-semibold">
+            It's good <br />
+            tea time at The <br />
+            Tea House
+          </h1>
+          <br />
+          <p class="w-3/4">
+            Tea and Botanical Solutions Supplier Give Optimum Satisfaction To
+            Your Taste Buds.
+          </p>
+          <br />
+          <button
+            class="bg-gradient-to-r from-orange-400 via-orange-600 to-red-600 px-5 py-2 text-base text-white rounded-lg mb-5 w-44 h-14"
+          >
+            Explore More
+            <img src="./images/arrow.png" class="inline h-[24px] p-1" alt="" />
+          </button>
         </div>
+      </div>
 
-        <!-- banner image -->
-        <div class="relative"> 
-            <div class="z-10">
-                <img src="./images/banner.png" alt="Cha">
-            </div>
-            <div class="shadow-lg absolute top-28 px-2 md:px-10 md:top-96 md:left-32 py-2 lg:top-96 lg:left-28 bg-white lg:px-6 lg:py-4 rounded-lg flex">
-                <div class="flex items-center">
-                    <i class="fa-solid fa-star text-2xl text-amber-300"></i>
-                  </div>
-                  <div class="ml-2">
-                    <h2 class="font-bold lg:text-2xl">5.00</h2>
-                    <p>Trust Pilot Ratings</p>
-                  </div>
-            </div>
+      <!-- banner image -->
+      <div class="relative">
+        <div class="z-10">
+          <img src="./images/banner.png" alt="Cha" />
         </div>
+        <div
+          class="shadow-lg absolute top-28 px-2 md:px-10 md:top-96 md:left-32 py-2 lg:top-96 lg:left-28 bg-white lg:px-6 lg:py-4 rounded-lg flex"
+        >
+          <div class="flex items-center">
+            <i class="fa-solid fa-star text-2xl text-amber-300"></i>
+          </div>
+          <div class="ml-2">
+            <h2 class="font-bold lg:text-2xl">5.00</h2>
+            <p>Trust Pilot Ratings</p>
+          </div>
+        </div>
+      </div>
     </section>
 
+    <!-- Feature section -->
+    <section class="container mx-auto px-16 lg:px-32 mb-28">
+      <div class="flex justify-center mb-5">
+        <div class="text-center w-5/6">
+          <h1 class="text-5xl font-bold mb-5">Our Feature Products</h1>
+          <p>
+            There are many variations of passages of Lorem Ipsum available, but
+            the majority have suffered alteration in some form, by injected
+            humour, or randomised words which don't look even slightly
+            believable.
+          </p>
+        </div>
+      </div>
+      <div class="grid grid-cols-1 lg:grid-cols-4 lg:h-80 gap-5">
+        <div class="bg-slate-100 text-center p-5">
+            <img src="./images/tea-1.png" class="mx-auto" alt="">
+            <h1 class="text-2xl font-bold">Milk Tea</h1>
+            <p>Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="bg-slate-100 text-center p-5">
+            <img src="./images/tea-2.png" class="mx-auto" alt="">
+            <h1 class="text-2xl font-bold">Black Tea</h1>
+            <p>Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="bg-slate-100 text-center p-5">
+            <img src="./images/tea-3.png" class="mx-auto" alt="">
+            <h1 class="text-2xl font-bold">Lemon Tea</h1>
+            <p>Creamer could be replaced by fresh milk</p>
+        </div>
+        <div class="bg-slate-100 text-center p-5">
+            <img src="./images/tea-4.png" class="mx-auto" alt="">
+            <h1 class="text-2xl font-bold">Green Tea</h1>
+            <p>Creamer could be replaced by fresh milk</p>
+        </div>
+      </div>
+    </section>
   </body>
 </html>
